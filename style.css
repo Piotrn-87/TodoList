@@ -7,7 +7,6 @@
 
 html {
     font-family: arial, sans-serif;
-    font-size: 20px;
 }
 
 body {
@@ -29,4 +28,23 @@ body {
     grid-row-gap: 1rem;
     margin: auto;
     padding: 1rem;
+}
+
+.displayBtn {
+    position: relative;
+    left: 50%;
+}
+
+.displayBtn button {
+    display: block;
+    width: 8rem;
+    background-color: #0e4f1f;
+    font-family: inherit;
+    padding: .8rem;
+    border: 1px solid #0e4f1f;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    line-height: 100%;
 }
