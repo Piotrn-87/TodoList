@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 
@@ -13,15 +13,16 @@
 
   <!-- header  -->
   <header class="header">
-    <h3 class="myToDo"> Awesome !! Let's do some stuff </h3>
+    <h3 class="myTodo-list__text"> Awesome !! Let's dive right in </h3>
   </header>
+
+  <!-- displayBtn -->
+  <nav class="displayBtn">
+    <button onclick="handler.toggleAll ()"> Toggle All </button>
+  </nav>
 
   <!-- main  -->
   <main class="main_toDoList">
-    <!-- displayBtn -->
-    <div class="displayBtn">
-      <button onclick="handler.toggleAll ()"> Toggle All </button>
-    </div>
     <!-- addTodoBtn -->
     <div class="addTodoBtn">
       <button onclick="handler.addTodo ()"> Add sth </button>
@@ -45,7 +46,10 @@
     </div>
   </main>
 
+  <ol>
+  </ol>
 
+  <script src="script.js"></script>
 </body>
 
 </body>
